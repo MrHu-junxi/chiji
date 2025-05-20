@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吃鸡啊头王</title>
+    <style>
+        .title{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .img{
+            width: 100%;
+        }
+        .img img{
+            width: 100%;
+        }
+        .title button{
+            width: 50%;
+            height: 30px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>吃鸡啊头王</h1>
+        <h2>头王怎么还不上号</h2>
+        <h3>快上号啊头王</h3>
+        <button class="btn">点我，头王</button>
+    </div>
+    <div class="img">
+        <img src="./04_daigneux.gif" alt="">
+    </div>
+
+    <script>
+        const btn = document.querySelector('.btn')
+        // 给btn添加点击事件
+        btn.addEventListener('click', () => {
+            alert('头王，你点我干啥')
+        })
+    </script>
+</body>
+</html>
